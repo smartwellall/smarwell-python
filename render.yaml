@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: mi-proyecto-python
+    env: python
+    buildCommand: ""
+    startCommand: "gunicorn app:app"
